@@ -36,7 +36,7 @@ plt.show()
 
 # Now, generate image with a ramp:
 slope = 25. # Slope is in electrons per second
-frametime = 0.90200 # Frame time is in seconds
+frametime = 0.226 # Frame time is in seconds
 ngroups = 5
 gain = 1.42 # Gain is in e/adu
 
@@ -59,6 +59,3 @@ for i in range(ngroups):
     plt.imshow(simulated_groups[i, :, :])
 
 plt.show()
-
-
-
